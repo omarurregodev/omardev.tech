@@ -1,15 +1,192 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="es">
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Home|Omar Torres</title>
-    <link rel="stylesheet" href="css/bulma.min.css">
-    <link rel="stylesheet" href="css/styles.css">
+    <meta name="keywords" content="desarrollo web, analisis de informacion, portal web, interface de usuario, plataforma web, Bootstrap, CSS, SASS, Diseño, aplicativo web">
+    <meta name="description" content="Soy un desarrollador full stack en progreso, con capacidad y creatividad para plasmar las ideas en el navegador.">
+    <link rel="shortcut icon" href="img/Logo_omar_azul.svg">
+    <!-- Boostrap CSS -->
+    <link rel="stylesheet" href="./css/bootstrap.css">
+    <!-- Fontawesome CSS -->
+    <link rel="stylesheet" href="./css/all.css">
+    <script src="https://kit.fontawesome.com/fed0aa1abd.js" crossorigin="anonymous"></script>
+    <!-- My style CSS -->
+    <link rel="stylesheet" href="./css/style.css">
+    <!-- Google Fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Nunito:ital,wght@0,200;0,300;0,400;0,500;0,600;1,200;1,300;1,400;1,500;1,600&family=Source+Sans+Pro:ital,wght@0,200;0,300;0,400;0,600;0,700;0,900;1,200;1,300;1,400;1,600;1,700;1,900&display=swap" rel="stylesheet">
+    <title>Home | OmarTorres</title>
 </head>
 <body>
-    
-    <h1 class="title is-1">hello world</h1>
+    <header>
+        <nav class="navbar fixed-top navbar-expand-lg">
+            <div class="container-fluid">
+                <a class="navbar-brand" href="#">
+                    <img src="./img/Logo_omar_azul.svg" alt="logo-omar" width="60" height="">
+                </a>
+                <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarText" aria-controls="navbarText" aria-expanded="false" aria-label="Toggle navigation">
+                    <span class="navbar-toggler-icon" style="color: white;"></span>
+                </button>
+                <div class="collapse navbar-collapse nav justify-content-end" id="navbarText">
+                    <ul class="navbar-nav mb-2 mb-lg-0">
+                        <li class="nav-item">
+                            <a class="nav-link active" aria-current="page" href="./index.html">Home</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="./pages/servicios.html">Servicios</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="./pages/contacto.html">Contacto</a>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+        </nav>
+    </header>
+    <main>
+        <section class="home_start">
+            <div class="container-fluid container_home_gen">
+                <div class="row container-fluid">
+                    <div class="col-12 col-lg-12 col-md-12 col-sm-12 container_home text-center">
+                        <div class="row">
+                            <div class="col-12 col-lg-12 col-md-12 col-sm-12">
+                                <h1 class="title_home">Ingeniero Civil, Desarrollador front-end y futuro Full Stack.</h1>
+                            </div>
+                            <div class="col-12 col-lg-12 col-md-12 col-sm-12">
+                                <h2 class="subtitle_home">Diseño y desarrollo soluciones para todos los casos.</h2>
+                            </div>
+                        </div> 
+                    </div>
+                    <div class="col-12 col-lg-12 col-md-12 col-sm-12 container_home">
+                        <img src="./img/home_img.svg" class="img-fluid img_desktop" alt="escritorio-minimalista-azul">
+                    </div>
+                </div>
+            </div>
+        </section>
+        <section class="home_me">
+            <div class="container-fluid">
+                <div class="container">
+                    <div class="row container_me_text text-center">
+                        <div class="col-12 col-lg-12 col-md-12 col-sm-12 container_me_title">
+                            <h1 class="title_me">Hola, mi nombre es Omar. Mucho gusto!</h1>
+                        </div>
+                        <div class="col-12 col-lg-12 col-md-12 col-sm-12">
+                            <h2 class="parrafo_me lh-base">Desde hace bastante tiempo, desperte curiosidad por el mundo de la programacion. El ser ingeniero, me ha facilitado en ciertos aspectos el aprendizaje de la logica de los lenguajes y su interpretacion. Soy de naturaleza curiosa, pro activo y siempre trabajando en busca de la mejor solucion.</h2>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <section class="home_projects">
+            <div class="container-fluid">
+                <div class="container">
+                    <div class="row">
+                        <div class="col-12 col-lg-12 col-md-12 col-sm-12 text-center">
+                            <h1 class="title_projects">Proyectos en los que he trabajado</h1>
+                        </div>
+                        <div class="col-12 col-lg-12 col-md-12 col-sm-12 projects_container">
+                            <h2 class="subtitle_projects">Proximamente...</h2>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <section class="home_testimonios">
+            <div class="container-fluid">
+                <div class="container">
+                    <h1 class="title_testimonios text-center">Testimonios</h1>
+                </div>
+            </div>
+            <div id="carouselExampleIndicators" class="carousel slide" data-bs-ride="carousel">
+                <div class="carousel-indicators">
+                    <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
+                    <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="1" aria-label="Slide 2"></button>
+                </div>
+                <div class="carousel-inner">
+                    <div class="carousel-item active">
+                        <div class="container-fluid">
+                            <div class="container testimonio_card card-img">
+                                <div class="card text-center">
+                                    <img src="https://ca.slack-edge.com/T02FYJW6U-U0121CMA2RX-12f9b2581a12-72" class="rounded-circle testimonio_photo" alt="foto-testimonio-1">
+                                    <div class="card-body">
+                                        <div class="container">
+                                            <i class="fa-solid fa-star star_score"></i><i class="fa-solid fa-star star_score"></i><i class="fa-solid fa-star star_score"></i><i class="fa-solid fa-star star_score"></i><i class="fa-solid fa-star star_score"></i>
+                                        </div>
+                                        <blockquote class="blockquote comentario_text">
+                                            <p>"Lorem ipsum dolor, sit amet consectetur adipisicing elit. Fuga earum non amet inventore ut laudantium, facere quo delectus perferendis veniam!"</p>
+                                        </blockquote>
+                                        <figcaption class="blockquote-footer name_testimonio">
+                                        Johana Palo Bael
+                                        </figcaption>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="carousel-item">
+                        <div class="container-fluid">
+                            <div class="container testimonio_card card-img">
+                                <div class="card text-center">
+                                    <img src="https://ca.slack-edge.com/T02FYJW6U-U01PRME16HM-8dc4aa9f218c-72" class="rounded-circle testimonio_photo" alt="foto-testimonio-2">
+                                    <div class="card-body">
+                                        <div class="container">
+                                            <i class="fa-solid fa-star star_score"></i><i class="fa-solid fa-star star_score"></i><i class="fa-solid fa-star star_score"></i><i class="fa-solid fa-star star_score"></i><i class="fa-solid fa-star star_score"></i>
+                                        </div>
+                                        <blockquote class="blockquote comentario_text">
+                                            <p>"Lorem ipsum dolor, sit amet consectetur adipisicing elit. Fuga earum non amet inventore ut laudantium, facere quo delectus perferendis veniam!"</p>
+                                        </blockquote>
+                                        <figcaption class="blockquote-footer name_testimonio">
+                                        Julian Fernandez
+                                        </figcaption>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide="prev">
+                    <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                    <span class="visually-hidden">Previous</span>
+                </button>
+                <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide="next">
+                    <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                    <span class="visually-hidden">Next</span>
+                </button>
+            </div>
+        </section>
+    </main>
+    <footer>
+        <section class="footer_sec">
+            <div class="container-fluid">
+                <div class="container footer_content">
+                    <div class="row text-center">
+                        <div class="col-12 col-lg-12 col-md-12 col-sm-12">
+                            <img src="./img/Logo_omar_blanco.svg" class="logo_footer" alt="logo-omar-blanco">
+                        </div>
+                    </div>
+                    <div class="row text-center justify-content-center">
+                        <div class="col-12 col-lg-4 col-md-4 col-sm-12">
+                            <h1 class="parrafo_footer">Vivir, aprender y superarse un dia a la vez.</h1>
+                        </div>
+                    </div>
+                    <div class="row">
+                        <div class="col-12 col-lg-12 col-md-12 col-sm-12 text-center social_container">
+                            <a href="https://www.linkedin.com/in/omar-torres-urrego-a72b52160/"><i class="fa-brands fa-linkedin-in social_icons"></i></a><a href="https://twitter.com/FastestCar7"><i class="fa-brands fa-twitter social_icons"></i></a><a href="https://github.com/omarurregodev"><i class="fa-brands fa-github social_icons"></i></a><a href="https://www.instagram.com/omarurrego18/"><i class="fa-brands fa-instagram social_icons"></i></a>
+                        </div>  
+                    </div>
+                    <div class="row">
+                        <div class="col-12 col-lg-12 col-md-12 col-sm-12 text-center">
+                            <h3 class="copyright">Elaborada por mi © 2022</h3>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+    </footer>
+    <!-- Boostrap JS -->
+    <script src="./js/bootstrap.js"></script> 
 </body>
 </html>

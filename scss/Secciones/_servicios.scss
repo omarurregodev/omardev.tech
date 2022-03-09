@@ -1,0 +1,59 @@
+main {
+    .servicios_container {
+        background-color: rgba(246,246,246,0.97);
+        .servicios_cards {
+            padding-top: 170px;
+            padding-bottom: 100px;
+            .title_servicios {
+                color: $azul;
+                font-weight: 900;
+                font-size: 3.5rem;
+                padding-bottom: 40px;
+            }
+            .cards_div {
+                box-shadow: 0 5px 10px 0 rgba(0,0,0,.2);
+                background-color: $blanco;
+                .service_card_item {
+                    padding-left: 25px;
+                    padding-right: 25px;
+                    border-right: 1px solid #dee2e6;
+                    border-bottom: 0.5px solid #dee2e6;
+                    .service_icon {
+                        font-size: 4.5rem;
+                        padding-top: 60px;
+                        padding-bottom: 50px;
+                        color: $amarillo;
+                    }
+                    .titulo_servicios {
+                        font-weight: 800;
+                        font-size: 2rem;
+                        padding-bottom: 20px;
+                        color: $azul;
+                    }
+                    .parrafo_servicios {
+                        font-size: 1.5rem;
+                        font-weight: 300;
+                        color: $azul;
+                        padding-bottom: 30px;
+                    }
+                    .subtitulo_servicios {
+                        font-weight: 700;
+                        font-size: 1.5rem;
+                        color: $rojo;
+                    }
+                    .list_servicios {
+                        background-color: $blanco;
+                        padding-bottom: 30px;
+                        .list_item {
+                            background-color: $blanco;
+                            border-bottom: 0;
+                            font-size: 1.4rem;
+                            font-weight: 300;
+                            color: $azul;
+                        }
+                    }
+                }
+            }
+        }
+    }
+}

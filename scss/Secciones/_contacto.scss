@@ -1,0 +1,104 @@
+main {
+    .contacto_container {
+        background-color: rgba(246,246,246,0.97);
+        .contacto_bloque {
+            padding-top: 170px;
+            padding-bottom: 100px;
+            .title_contacto {
+                color: $azul;
+                font-weight: 900;
+                font-size: 3.5rem;
+                padding-bottom: 40px;
+            }
+            .bloque_inf {
+                box-shadow: 0 5px 10px 0 rgba(0,0,0,.2);
+                display: flex;
+                align-items: center;
+                justify-content: center;
+                background-color: $blanco;
+                .contacto_elemento {
+                    padding-left: 25px;
+                    padding-right: 25px;
+                    border-right: 1px solid #dee2e6;
+                    
+                    .titulo_info {
+                        font-weight: 800;
+                        font-size: 2rem;
+                        padding-bottom: 20px;
+                        padding-top: 40px;
+                        color: $azul;
+                    }
+                    .parrafo_servicios {
+                        font-size: 1.5rem;
+                        font-weight: 300;
+                        color: $azul;
+                        padding-bottom: 30px;
+                    }
+                    .subtitulo_servicios {
+                        font-weight: 700;
+                        font-size: 1.5rem;
+                        color: $rojo;
+                    }
+                    .list_info {
+                        background-color: $blanco;
+                        padding-bottom: 30px;
+                        text-align: left;
+                        margin-left: 40px;
+                        .list_item {
+                            background-color: $blanco;
+                            border-bottom: 0;
+                            font-size: 1.4rem;
+                            font-weight: 300;
+                            color: $azul;
+                        }
+                    }
+                }
+            }
+            .form_div {
+                padding-top: 70px;
+                padding-bottom: 50px;
+                .form_contacto {
+                    text-align: left;
+                    .form-group {
+                        padding-top: 5px;
+                        padding-bottom: 20px;
+                        label {
+                            font-size: 1.5rem;
+                            color: $azul;
+                        }
+                    }
+                    .btn_enviar {
+                        background-color: $azul;
+                        color: $blanco;
+                        font-size: 1.5rem;
+                        transition: all 300ms cubic-bezier(1, 1, 1, 1);
+                        &:hover {
+                            background-color: $amarillo;
+                            color: $azul;
+                            transform: scale(1.1);
+                            text-shadow: none;
+                        }
+                    }  
+                }
+            }
+        }
+    }
+    .img_desktop_contacto {
+        width: 50%;
+    }
+    
+}
+@media (max-width: $breakpoint-mobile){
+    main {
+        .img_desktop_contacto {
+            width: 90%;
+        }     
+    }
+}
+@media (max-width: $breakpoint-tablet){
+    main {
+        .img_desktop_contacto {
+            width: 90%;
+        }     
+    }
+}

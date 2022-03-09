@@ -1,13 +1,25 @@
 * {
     margin: 0;
     padding: 0;
-    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    box-sizing: border-box;
+    font-family: 'Source Sans Pro', sans-serif;
 }
 
-/* VARIABLES */
+body {
+    background-image: url('../img/background_index.jpg');
+    background-repeat: repeat;
+    background-size: 100%;
+
+}
+
+// IMPORT VARIABLES //
+
 @import './Variables/colores';
-@import './Variables/extend';
-@import './Variables/mixin';
-@import './Variables/maps';
-/* PAGINAS */
+@import './Variables/variables';
+
+// IMPORT SECCIONES //
+
 @import './Secciones/index';
+@import './Secciones/servicios';
+@import './Secciones/contacto';
+
